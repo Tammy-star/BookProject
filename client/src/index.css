@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.button{
+  color:orange
+}
+.btn-primary {
+  background-color: rgb(169, 93, 34) !important;
+  font-size: .95rem !important;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.MuiToolbar-root {
+  background-color: rgba(105,139,125,255);
+}
+.MuiButton-root{
+  background-color: rgba(105,139,125,255) !important;
+}
+.MuiOutlinedInput-input{
+  border: none !important;
+}
+.MuiPaper-root{
+  background-color: rgb(169, 93, 34) !important;
+}
+.MuiSelect-select{
+  position: relative !important;
+  display: inline-block !important;
+}
+#demo-simple-select{
+  padding: 20px !important;
+  width: 100px !important;
+}
+.MuiMenuItem-root{
+  background-color: white !important;
+}
+#no-books{
+  width: 550px;
+  font-size: x-large;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ebcc8c00;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 45%;
+  border-color: black;
+  border-radius: 30%;
+
+  border: 2px solid black;
+  color: rgb(15, 14, 14);
+}
+.MuiPaper-root{
+  background-color: white !important;
+}
